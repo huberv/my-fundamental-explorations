@@ -34,6 +34,8 @@ React and TypeScript:
 - `yarn add typescript tslint @babel/core @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread @babel/preset-env @babel/preset-typescript react-dom react @types/react @types/react-dom @babel/preset-react webpack babel-loader webpack-dev-server webpack-cli react-hot-loader css-loader style-loader file-loader html-webpack-plugin -D`
 - `yarn add fundamental-ui -D`
 
+- [Routing docs](docs/Routing.md)
+
 # Idea pool
 
 - ~~typescript~~
