@@ -1,10 +1,31 @@
 import React, { Component } from "react";
+import { hot } from "react-hot-loader";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import { routes } from "./router/routes";
+
 import "./App.css";
 
-import MainPage from "./pages/MainPage";
-
-export default class App extends Component<{}, {}> {
+class App extends Component<{}, {}> {
   public render() {
-    return <MainPage />;
+    return (
+      <Router>
+        <Switch>
+          {Object.keys(routes).map((key, index) => {
+            const route = routes[key];
+            return (
+              <Route
+                key={key}
+                path={route.location.path}
+                component={route.component}
+                exact={route.exact}
+              />
+            );
+          })}
+        </Switch>
+      </Router>
+    );
   }
 }
+
+export default hot(module)(App);

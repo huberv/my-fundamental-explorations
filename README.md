@@ -32,15 +32,14 @@ React and TypeScript:
 - added linting, webpack-dev-server and react hot loading
 - added css/style/font loader
 - `yarn add typescript tslint @babel/core @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread @babel/preset-env @babel/preset-typescript react-dom react @types/react @types/react-dom @babel/preset-react webpack babel-loader webpack-dev-server webpack-cli react-hot-loader css-loader style-loader file-loader html-webpack-plugin -D`
-- `yarn add fundamental-ui -D`
+- `yarn add fiori-fundamentals -D`
 
 - [Routing docs](docs/Routing.md)
 
 # Idea pool
 
 - ~~typescript~~
-- routing: react-router-dom + react-app-location
-  - https://medium.com/dailyjs/stop-repeating-yourself-with-routes-links-and-location-parameter-parsing-in-your-react-app-a9ac317dfe1
+- routing: react-router-dom + react-app-location - work in progress
 - sidebar items as links to routes
 - main page content - Welcome to this wonderful app
 - page for global navigation settings

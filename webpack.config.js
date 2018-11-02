@@ -16,7 +16,10 @@ module.exports = {
       {
         test: /\.(ts|js)x?$/,
         exclude: /node_modules/,
-        loader: "babel-loader"
+        loader: "babel-loader",
+        options: {
+          plugins: ["react-hot-loader/babel"]
+        }
       },
       {
         test: /\.css$/,

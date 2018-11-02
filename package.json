@@ -8,7 +8,7 @@
     "type-check:watch": "npm run type-check -- --watch",
     "build:types": "tsc --emitDeclarationOnly",
     "build:app": "webpack --mode=production",
-    "build": "yarn lint && yarn type-check && yarn build:types && yarn build:app",
+    "build": "yarn lint && yarn build:types && yarn build:app",
     "start": "webpack-dev-server --mode=development",
     "lint": "tslint src/**/*.tsx"
   },
@@ -25,6 +25,7 @@
     "@types/node": "^10.12.1",
     "@types/react": "^16.4.18",
     "@types/react-dom": "^16.0.9",
+    "@types/react-router-dom": "^4.3.1",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
